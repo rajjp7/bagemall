@@ -697,19 +697,38 @@ export default function BEAPage() {
             </form>
           </div>
           
-          <div className="flex flex-col justify-between items-start lg:items-end font-body parallax-item" data-speed="0.05">
-             <div className="font-brutal text-[10rem] md:text-[14rem] tracking-tight leading-[0.7] mb-12 lg:mb-0 text-outline hover:text-[#FF3300] transition-colors duration-500 cursor-none group">
-               <div className="hover-marquee h-[0.8em]">
-                  <span>BAG 'EM ALL.</span>
-                  <span className="text-[#FF3300] text-outline-none">BAG 'EM ALL.</span>
-               </div>
-             </div>
-             <div className="flex gap-10 text-xs md:text-sm uppercase tracking-[0.2em] font-bold opacity-60 mt-12">
-               <a href="#" className="group overflow-hidden"><div className="hover-marquee"><span>Instagram</span><span className="text-[#FF3300]">Instagram</span></div></a>
-               <a href="#" className="group overflow-hidden"><div className="hover-marquee"><span>Twitter</span><span className="text-[#FF3300]">Twitter</span></div></a>
-               <a href="#" className="group overflow-hidden"><div className="hover-marquee"><span>Contact</span><span className="text-[#FF3300]">Contact</span></div></a>
-             </div>
-          </div>
+         <div className="flex flex-col justify-between items-start lg:items-end font-body parallax-item" data-speed="0.05">
+  <div className="font-brutal text-[10rem] md:text-[14rem] tracking-tight leading-[0.7] mb-12 lg:mb-0 text-outline hover:text-[#FF3300] transition-colors duration-500 cursor-none group">
+    <div className="hover-marquee h-[0.8em]">
+      <span>BAG 'EM ALL.</span>
+      <span className="text-[#FF3300] text-outline-none">BAG 'EM ALL.</span>
+    </div>
+  </div>
+  <div className="flex gap-10 text-xs md:text-sm uppercase tracking-[0.2em] font-bold opacity-60 mt-12">
+    {/* Update your Instagram Link below */}
+    <a href="https://www.instagram.com/bag.em_all?igsh=ZzM1Z3I2ejFwZnQ0" target="_blank" rel="noopener noreferrer" className="group overflow-hidden">
+      <div className="hover-marquee">
+        <span>Instagram</span>
+        <span className="text-[#FF3300]">Instagram</span>
+      </div>
+    </a>
+
+    {/* Update your Youtube Link below */}
+    <a href="https://www.youtube.com/@bag.em_all" target="_blank" rel="noopener noreferrer" className="group overflow-hidden">
+      <div className="hover-marquee">
+        <span>Youtube</span>
+        <span className="text-[#FF3300]">Youtube</span>
+      </div>
+    </a>
+
+    <a href="mailto:contact@bagemall.com" className="group overflow-hidden">
+      <div className="hover-marquee">
+        <span>Contact</span>
+        <span className="text-[#FF3300]">Contact</span>
+      </div>
+    </a>
+  </div>
+</div>
         </div>
       </footer>
 
